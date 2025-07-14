@@ -1,10 +1,31 @@
-# Aprenda Kotlin Com Exemplos: Desafio de Projeto (Lab)
+# Formação Kotlin Developer - DIO (Desafio de Projeto)
 
-Desafio de Projeto criado para avaliação do conteúdo técnico explorado no repositório [aprenda-kotlin-com-exemplos](https://github.com/digitalinnovationone/aprenda-kotlin-com-exemplos). **Nesse contexto, iremos abstrair o seguinte domínio de aplicação:**
+Este repositório contém a solução para o **Desafio de Projeto** proposto pela [Digital Innovation One (DIO)](https://www.dio.me/) no módulo ["aprenda-kotlin-com-exemplos"](https://github.com/digitalinnovationone/aprenda-kotlin-com-exemplos-lab).
 
-**A [DIO](https://web.dio.me) possui `Formacoes` incríveis que têm como objetivo oferecer um conjunto de `ConteudosEducacionais` voltados para uma stack tecnológica específica, preparando profissionais de TI para o mercado de trabalho. `Formacoes` possuem algumas características importantes, como `nome`, `nivel` e seus respectivos `conteudosEducacionais`. Além disso, tais experiências educacionais têm um comportamento relevante ao nosso domínio, definido pela capacidade de `matricular` um ou mais `Alunos`.**
+## 📚 Descrição
 
+A proposta é criar um sistema que simula a estrutura de formações educacionais da DIO, com os seguintes conceitos:
 
-```kotlin
-TODO("Crie uma solução em Koltin abstraindo esse domínio. O arquivo [desafio.kt] te ajudará 😉")
-```
+- **Conteúdo Educacional**: módulos com nome e duração.
+- **Formação**: agrupa conteúdos, possui um nível e permite matrícula de alunos.
+- **Usuário**: representa o aluno que pode se matricular em formações.
+
+## 🔧 Tecnologias
+
+- Kotlin (versão recomendada: 1.9+)
+- IntelliJ IDEA ou qualquer IDE compatível
+
+## 💡 Funcionalidades
+
+- Criação de conteúdos educacionais com nome e duração.
+- Criação de formações com nível (básico, intermediário, avançado).
+- Matrícula de usuários em formações (evita duplicidade).
+- Listagem de conteúdos e inscritos por formação.
+
+## ▶️ Como executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repo.git
+   cd seu-repo
+    ```
