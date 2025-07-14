@@ -29,3 +29,6 @@ A proposta é criar um sistema que simula a estrutura de formações educacionai
    git clone https://github.com/seu-usuario/seu-repo.git
    cd seu-repo
     ```
+2. Abra o projeto em sua IDE Kotlin (recomendada: IntelliJ IDEA)
+
+3. Execute o arquivo desafio.kt
